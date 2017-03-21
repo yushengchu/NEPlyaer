@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F5803183F59D5A6BBB3486 /* libPods-NEPlyaer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F47E60AE149EEAB3E891C94 /* libPods-NEPlyaer.a */; };
+		B35461901E80C81600870FBD /* MLRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = B35461891E80C81600870FBD /* MLRefreshView.m */; };
+		B35461911E80C81600870FBD /* PlayerShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B354618B1E80C81600870FBD /* PlayerShowView.m */; };
+		B35461921E80C81600870FBD /* PlayObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B354618D1E80C81600870FBD /* PlayObj.m */; };
+		B35461931E80C81600870FBD /* UIDevice+XJDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = B354618F1E80C81600870FBD /* UIDevice+XJDevice.m */; };
+		F3D3AB711E6D6DF700B8179B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3AB701E6D6DF700B8179B /* main.m */; };
+		F3D3AB741E6D6DF700B8179B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3AB731E6D6DF700B8179B /* AppDelegate.m */; };
+		F3D3AB771E6D6DF700B8179B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3AB761E6D6DF700B8179B /* ViewController.m */; };
+		F3D3AB7A1E6D6DF700B8179B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D3AB781E6D6DF700B8179B /* Main.storyboard */; };
+		F3D3AB7C1E6D6DF700B8179B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D3AB7B1E6D6DF700B8179B /* Assets.xcassets */; };
+		F3D3AB7F1E6D6DF700B8179B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D3AB7D1E6D6DF700B8179B /* LaunchScreen.storyboard */; };
+		F3D3AB891E6D6ECB00B8179B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB861E6D6ECB00B8179B /* libcrypto.a */; };
+		F3D3AB8A1E6D6ECB00B8179B /* libNELivePlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB871E6D6ECB00B8179B /* libNELivePlayer.a */; };
+		F3D3AB8B1E6D6ECB00B8179B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB881E6D6ECB00B8179B /* libssl.a */; };
+		F3D3AB8D1E6E40E500B8179B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB8C1E6E40E500B8179B /* SystemConfiguration.framework */; };
+		F3D3AB8F1E6E40EA00B8179B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB8E1E6E40EA00B8179B /* CoreTelephony.framework */; };
+		F3D3AB911E6E40F000B8179B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB901E6E40F000B8179B /* CFNetwork.framework */; };
+		F3D3AB931E6E40F600B8179B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB921E6E40F600B8179B /* libz.tbd */; };
+		F3D3AB951E6E40FE00B8179B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB941E6E40FE00B8179B /* libbz2.tbd */; };
+		F3D3AB971E6E410300B8179B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB961E6E410300B8179B /* libstdc++.tbd */; };
+		F3D3AB991E6E410800B8179B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB981E6E410800B8179B /* libiconv.tbd */; };
+		F3D3AB9B1E6E410D00B8179B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB9A1E6E410D00B8179B /* Foundation.framework */; };
+		F3D3AB9D1E6E411200B8179B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB9C1E6E411200B8179B /* OpenGLES.framework */; };
+		F3D3AB9F1E6E411800B8179B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3AB9E1E6E411800B8179B /* QuartzCore.framework */; };
+		F3D3ABA11E6E411F00B8179B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABA01E6E411F00B8179B /* CoreAudio.framework */; };
+		F3D3ABA31E6E412300B8179B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABA21E6E412300B8179B /* CoreVideo.framework */; };
+		F3D3ABA51E6E412800B8179B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABA41E6E412800B8179B /* CoreGraphics.framework */; };
+		F3D3ABA71E6E412C00B8179B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABA61E6E412C00B8179B /* CoreMedia.framework */; };
+		F3D3ABA91E6E413100B8179B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABA81E6E413100B8179B /* AVFoundation.framework */; };
+		F3D3ABAB1E6E413600B8179B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABAA1E6E413600B8179B /* VideoToolbox.framework */; };
+		F3D3ABAD1E6E413A00B8179B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABAC1E6E413A00B8179B /* AudioToolbox.framework */; };
+		F3D3ABAF1E6E415B00B8179B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D3ABAE1E6E415B00B8179B /* UIKit.framework */; };
+		F3D3ABB61E6E439700B8179B /* LivePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3ABB51E6E439700B8179B /* LivePlayerViewController.m */; };
+		F3D3ABC81E700E4500B8179B /* NetConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3ABC71E700E4500B8179B /* NetConnect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F47E60AE149EEAB3E891C94 /* libPods-NEPlyaer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NEPlyaer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9AA3A2962ECF041D20B32E /* Pods-NEPlyaer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEPlyaer.release.xcconfig"; path = "Pods/Target Support Files/Pods-NEPlyaer/Pods-NEPlyaer.release.xcconfig"; sourceTree = "<group>"; };
+		B35461881E80C81600870FBD /* MLRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLRefreshView.h; sourceTree = "<group>"; };
+		B35461891E80C81600870FBD /* MLRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLRefreshView.m; sourceTree = "<group>"; };
+		B354618A1E80C81600870FBD /* PlayerShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerShowView.h; sourceTree = "<group>"; };
+		B354618B1E80C81600870FBD /* PlayerShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerShowView.m; sourceTree = "<group>"; };
+		B354618C1E80C81600870FBD /* PlayObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayObj.h; sourceTree = "<group>"; };
+		B354618D1E80C81600870FBD /* PlayObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayObj.m; sourceTree = "<group>"; };
+		B354618E1E80C81600870FBD /* UIDevice+XJDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XJDevice.h"; sourceTree = "<group>"; };
+		B354618F1E80C81600870FBD /* UIDevice+XJDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XJDevice.m"; sourceTree = "<group>"; };
+		E071BB7D37957FBAC946606E /* Pods-NEPlyaer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEPlyaer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NEPlyaer/Pods-NEPlyaer.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D3AB6C1E6D6DF600B8179B /* NEPlyaer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEPlyaer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D3AB701E6D6DF700B8179B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3D3AB721E6D6DF700B8179B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3D3AB731E6D6DF700B8179B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3D3AB751E6D6DF700B8179B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3D3AB761E6D6DF700B8179B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3D3AB791E6D6DF700B8179B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D3AB7B1E6D6DF700B8179B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D3AB7E1E6D6DF700B8179B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D3AB801E6D6DF700B8179B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D3AB861E6D6ECB00B8179B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = NELivePlayer/libs/libcrypto.a; sourceTree = "<group>"; };
+		F3D3AB871E6D6ECB00B8179B /* libNELivePlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNELivePlayer.a; path = NELivePlayer/libs/libNELivePlayer.a; sourceTree = "<group>"; };
+		F3D3AB881E6D6ECB00B8179B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = NELivePlayer/libs/libssl.a; sourceTree = "<group>"; };
+		F3D3AB8C1E6E40E500B8179B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F3D3AB8E1E6E40EA00B8179B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F3D3AB901E6E40F000B8179B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F3D3AB921E6E40F600B8179B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F3D3AB941E6E40FE00B8179B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F3D3AB961E6E410300B8179B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		F3D3AB981E6E410800B8179B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		F3D3AB9A1E6E410D00B8179B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3D3AB9C1E6E411200B8179B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F3D3AB9E1E6E411800B8179B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3D3ABA01E6E411F00B8179B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F3D3ABA21E6E412300B8179B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F3D3ABA41E6E412800B8179B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3D3ABA61E6E412C00B8179B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F3D3ABA81E6E413100B8179B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3D3ABAA1E6E413600B8179B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F3D3ABAC1E6E413A00B8179B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F3D3ABAE1E6E415B00B8179B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3D3ABB41E6E439700B8179B /* LivePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePlayerViewController.h; sourceTree = "<group>"; };
+		F3D3ABB51E6E439700B8179B /* LivePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePlayerViewController.m; sourceTree = "<group>"; };
+		F3D3ABC61E700E4500B8179B /* NetConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetConnect.h; sourceTree = "<group>"; };
+		F3D3ABC71E700E4500B8179B /* NetConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetConnect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3D3AB691E6D6DF600B8179B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3ABAF1E6E415B00B8179B /* UIKit.framework in Frameworks */,
+				F3D3ABAD1E6E413A00B8179B /* AudioToolbox.framework in Frameworks */,
+				F3D3ABAB1E6E413600B8179B /* VideoToolbox.framework in Frameworks */,
+				F3D3ABA91E6E413100B8179B /* AVFoundation.framework in Frameworks */,
+				F3D3ABA71E6E412C00B8179B /* CoreMedia.framework in Frameworks */,
+				F3D3ABA51E6E412800B8179B /* CoreGraphics.framework in Frameworks */,
+				F3D3ABA31E6E412300B8179B /* CoreVideo.framework in Frameworks */,
+				F3D3ABA11E6E411F00B8179B /* CoreAudio.framework in Frameworks */,
+				F3D3AB9F1E6E411800B8179B /* QuartzCore.framework in Frameworks */,
+				F3D3AB9D1E6E411200B8179B /* OpenGLES.framework in Frameworks */,
+				F3D3AB9B1E6E410D00B8179B /* Foundation.framework in Frameworks */,
+				F3D3AB991E6E410800B8179B /* libiconv.tbd in Frameworks */,
+				F3D3AB971E6E410300B8179B /* libstdc++.tbd in Frameworks */,
+				F3D3AB951E6E40FE00B8179B /* libbz2.tbd in Frameworks */,
+				F3D3AB931E6E40F600B8179B /* libz.tbd in Frameworks */,
+				F3D3AB911E6E40F000B8179B /* CFNetwork.framework in Frameworks */,
+				F3D3AB8F1E6E40EA00B8179B /* CoreTelephony.framework in Frameworks */,
+				F3D3AB8D1E6E40E500B8179B /* SystemConfiguration.framework in Frameworks */,
+				F3D3AB891E6D6ECB00B8179B /* libcrypto.a in Frameworks */,
+				F3D3AB8A1E6D6ECB00B8179B /* libNELivePlayer.a in Frameworks */,
+				F3D3AB8B1E6D6ECB00B8179B /* libssl.a in Frameworks */,
+				09F5803183F59D5A6BBB3486 /* libPods-NEPlyaer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B35461871E80C81600870FBD /* play */ = {
+			isa = PBXGroup;
+			children = (
+				B35461881E80C81600870FBD /* MLRefreshView.h */,
+				B35461891E80C81600870FBD /* MLRefreshView.m */,
+				B354618A1E80C81600870FBD /* PlayerShowView.h */,
+				B354618B1E80C81600870FBD /* PlayerShowView.m */,
+				B354618C1E80C81600870FBD /* PlayObj.h */,
+				B354618D1E80C81600870FBD /* PlayObj.m */,
+				B354618E1E80C81600870FBD /* UIDevice+XJDevice.h */,
+				B354618F1E80C81600870FBD /* UIDevice+XJDevice.m */,
+			);
+			path = play;
+			sourceTree = "<group>";
+		};
+		ECA35A9F124F3C78DB5D1CD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E071BB7D37957FBAC946606E /* Pods-NEPlyaer.debug.xcconfig */,
+				9F9AA3A2962ECF041D20B32E /* Pods-NEPlyaer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEA59DC7A7F572B2D46D95BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3ABAE1E6E415B00B8179B /* UIKit.framework */,
+				F3D3ABAC1E6E413A00B8179B /* AudioToolbox.framework */,
+				F3D3ABAA1E6E413600B8179B /* VideoToolbox.framework */,
+				F3D3ABA81E6E413100B8179B /* AVFoundation.framework */,
+				F3D3ABA61E6E412C00B8179B /* CoreMedia.framework */,
+				F3D3ABA41E6E412800B8179B /* CoreGraphics.framework */,
+				F3D3ABA21E6E412300B8179B /* CoreVideo.framework */,
+				F3D3ABA01E6E411F00B8179B /* CoreAudio.framework */,
+				F3D3AB9E1E6E411800B8179B /* QuartzCore.framework */,
+				F3D3AB9C1E6E411200B8179B /* OpenGLES.framework */,
+				F3D3AB9A1E6E410D00B8179B /* Foundation.framework */,
+				F3D3AB981E6E410800B8179B /* libiconv.tbd */,
+				F3D3AB961E6E410300B8179B /* libstdc++.tbd */,
+				F3D3AB941E6E40FE00B8179B /* libbz2.tbd */,
+				F3D3AB921E6E40F600B8179B /* libz.tbd */,
+				F3D3AB901E6E40F000B8179B /* CFNetwork.framework */,
+				F3D3AB8E1E6E40EA00B8179B /* CoreTelephony.framework */,
+				F3D3AB8C1E6E40E500B8179B /* SystemConfiguration.framework */,
+				F3D3AB861E6D6ECB00B8179B /* libcrypto.a */,
+				F3D3AB871E6D6ECB00B8179B /* libNELivePlayer.a */,
+				F3D3AB881E6D6ECB00B8179B /* libssl.a */,
+				4F47E60AE149EEAB3E891C94 /* libPods-NEPlyaer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3D3AB631E6D6DF600B8179B = {
+			isa = PBXGroup;
+			children = (
+				F3D3AB6E1E6D6DF600B8179B /* NEPlyaer */,
+				F3D3AB6D1E6D6DF600B8179B /* Products */,
+				ECA35A9F124F3C78DB5D1CD3 /* Pods */,
+				EEA59DC7A7F572B2D46D95BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3D3AB6D1E6D6DF600B8179B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3AB6C1E6D6DF600B8179B /* NEPlyaer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3D3AB6E1E6D6DF600B8179B /* NEPlyaer */ = {
+			isa = PBXGroup;
+			children = (
+				B35461871E80C81600870FBD /* play */,
+				F3D3AB721E6D6DF700B8179B /* AppDelegate.h */,
+				F3D3AB731E6D6DF700B8179B /* AppDelegate.m */,
+				F3D3AB751E6D6DF700B8179B /* ViewController.h */,
+				F3D3AB761E6D6DF700B8179B /* ViewController.m */,
+				F3D3ABB41E6E439700B8179B /* LivePlayerViewController.h */,
+				F3D3ABB51E6E439700B8179B /* LivePlayerViewController.m */,
+				F3D3AB781E6D6DF700B8179B /* Main.storyboard */,
+				F3D3AB7B1E6D6DF700B8179B /* Assets.xcassets */,
+				F3D3AB7D1E6D6DF700B8179B /* LaunchScreen.storyboard */,
+				F3D3AB801E6D6DF700B8179B /* Info.plist */,
+				F3D3AB6F1E6D6DF600B8179B /* Supporting Files */,
+			);
+			path = NEPlyaer;
+			sourceTree = "<group>";
+		};
+		F3D3AB6F1E6D6DF600B8179B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3D3ABC61E700E4500B8179B /* NetConnect.h */,
+				F3D3ABC71E700E4500B8179B /* NetConnect.m */,
+				F3D3AB701E6D6DF700B8179B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3D3AB6B1E6D6DF600B8179B /* NEPlyaer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3D3AB831E6D6DF700B8179B /* Build configuration list for PBXNativeTarget "NEPlyaer" */;
+			buildPhases = (
+				211CEE9EDCBC05C699C5D49F /* [CP] Check Pods Manifest.lock */,
+				F3D3AB681E6D6DF600B8179B /* Sources */,
+				F3D3AB691E6D6DF600B8179B /* Frameworks */,
+				F3D3AB6A1E6D6DF600B8179B /* Resources */,
+				4871FB2A2C42AB3504BBBE66 /* [CP] Embed Pods Frameworks */,
+				931EE62C462828F15A802BE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEPlyaer;
+			productName = NEPlyaer;
+			productReference = F3D3AB6C1E6D6DF600B8179B /* NEPlyaer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3D3AB641E6D6DF600B8179B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = sandsyu;
+				TargetAttributes = {
+					F3D3AB6B1E6D6DF600B8179B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JXW7UH6S8Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F3D3AB671E6D6DF600B8179B /* Build configuration list for PBXProject "NEPlyaer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3D3AB631E6D6DF600B8179B;
+			productRefGroup = F3D3AB6D1E6D6DF600B8179B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3D3AB6B1E6D6DF600B8179B /* NEPlyaer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3D3AB6A1E6D6DF600B8179B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3AB7F1E6D6DF700B8179B /* LaunchScreen.storyboard in Resources */,
+				F3D3AB7C1E6D6DF700B8179B /* Assets.xcassets in Resources */,
+				F3D3AB7A1E6D6DF700B8179B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		211CEE9EDCBC05C699C5D49F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4871FB2A2C42AB3504BBBE66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEPlyaer/Pods-NEPlyaer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		931EE62C462828F15A802BE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NEPlyaer/Pods-NEPlyaer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3D3AB681E6D6DF600B8179B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3ABC81E700E4500B8179B /* NetConnect.m in Sources */,
+				B35461901E80C81600870FBD /* MLRefreshView.m in Sources */,
+				F3D3ABB61E6E439700B8179B /* LivePlayerViewController.m in Sources */,
+				B35461911E80C81600870FBD /* PlayerShowView.m in Sources */,
+				F3D3AB771E6D6DF700B8179B /* ViewController.m in Sources */,
+				B35461931E80C81600870FBD /* UIDevice+XJDevice.m in Sources */,
+				B35461921E80C81600870FBD /* PlayObj.m in Sources */,
+				F3D3AB741E6D6DF700B8179B /* AppDelegate.m in Sources */,
+				F3D3AB711E6D6DF700B8179B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3D3AB781E6D6DF700B8179B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D3AB791E6D6DF700B8179B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D3AB7D1E6D6DF700B8179B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D3AB7E1E6D6DF700B8179B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3D3AB811E6D6DF700B8179B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3D3AB821E6D6DF700B8179B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3D3AB841E6D6DF700B8179B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E071BB7D37957FBAC946606E /* Pods-NEPlyaer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JXW7UH6S8Y;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"$(PROJECT_DIR)/NELivePlayer/include\"",
+				);
+				INFOPLIST_FILE = NEPlyaer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NELivePlayer/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhzx.NEPlyaer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		F3D3AB851E6D6DF700B8179B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F9AA3A2962ECF041D20B32E /* Pods-NEPlyaer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JXW7UH6S8Y;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"$(PROJECT_DIR)/NELivePlayer/include\"",
+				);
+				INFOPLIST_FILE = NEPlyaer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NELivePlayer/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fhzx.NEPlyaer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3D3AB671E6D6DF600B8179B /* Build configuration list for PBXProject "NEPlyaer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D3AB811E6D6DF700B8179B /* Debug */,
+				F3D3AB821E6D6DF700B8179B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3D3AB831E6D6DF700B8179B /* Build configuration list for PBXNativeTarget "NEPlyaer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3D3AB841E6D6DF700B8179B /* Debug */,
+				F3D3AB851E6D6DF700B8179B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3D3AB641E6D6DF600B8179B /* Project object */;
+}
