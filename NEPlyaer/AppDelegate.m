@@ -26,13 +26,6 @@
 
 - (void)PlayerSuspend{
     NSLog(@"PlayerSuspend");
-    
-//        [PlayObj getInstance].liveplayer.view.frame = CGRectMake(0, 0, self.window.width/2, self.window.width/2*0.6);
-//        [PlayObj getInstance].isSuspend = true;
-//        [self.window addSubview:[PlayObj getInstance].liveplayer.view];
-    
-    
-    
     PlayerShowView* View = [[PlayerShowView alloc]initWithFrame:CGRectMake(0, 100, self.window.width/2, self.window.width*0.6/2)
                                                  connectWithUrl:@"http://hls.quanmin.tv/live/3191756/playlist.m3u8"];
     View.isSuspend = true;
@@ -45,17 +38,14 @@
         //无论最大还是最小都只允许一个手指
         panGestureRecognizer.minimumNumberOfTouches = 1;
         panGestureRecognizer.maximumNumberOfTouches = 1;
-//        [[PlayObj getInstance].liveplayer.view addGestureRecognizer:panGestureRecognizer];
         [View addGestureRecognizer:panGestureRecognizer];
     
 }
 
 - (void) handlePanGestures:(UIPanGestureRecognizer*)paramSender{
-    if (paramSender.state != UIGestureRecognizerStateEnded && paramSender.state != UIGestureRecognizerStateFailed){
-        //通过使用 locationInView 这个方法,来获取到手势的坐标
-        CGPoint location = [paramSender locationInView:paramSender.view.superview];
-        paramSender.view.center = location;
-    }
+    CGPoint point = [paramSender translationInView:[[UIApplication sharedApplication] keyWindow]];
+    paramSender.view.center = CGPointMake(paramSender.view.center.x + point.x, paramSender.view.center.y + point.y);
+    [paramSender setTranslation:CGPointMake(0, 0) inView:[[UIApplication sharedApplication] keyWindow]];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
